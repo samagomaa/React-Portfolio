@@ -1,0 +1,25 @@
+.homeBody{
+    background-color: #1abc9c;
+}
+.starIcon{
+    position: relative;
+}
+.starIcon::after{
+    position: absolute;
+    content: "";
+    top: 40%;
+    left: 52%;
+    width: 7%;
+    height: 4px;
+    background-color: #ffffff;
+}
+.starIcon::before{
+    position: absolute;
+    content: "";
+    top: 40%;
+    right: 52%;
+    width: 7%;
+    height: 4px;
+    background-color: #ffffff;
+}
+
