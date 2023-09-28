@@ -14,7 +14,7 @@ export default function About() {
             <div className="row">
                 <div className="col-md-6 text-start">
                     <p>Freelancer is a free bootstrap theme created by Route.
-                        The download includes the complete source files including HTML,
+                        The download include the complete source files including HTML,
                     CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
                 </div>
                 <div className="col-md-6 text-start">
