@@ -1,25 +1,35 @@
-.homeBody{
-    background-color: #1abc9c;
+.homeBody {
+  background-color: #1abc9c;
 }
-.starIcon{
-    position: relative;
+.starIcon {
+  position: relative;
 }
-.starIcon::after{
-    position: absolute;
-    content: "";
-    top: 40%;
-    left: 52%;
-    width: 7%;
-    height: 4px;
-    background-color: #ffffff;
+.starIcon::after {
+  position: absolute;
+  content: "";
+  top: 40%;
+  left: 52%;
+  width: 7%;
+  height: 4px;
+  background-color: #ffffff;
 }
-.starIcon::before{
-    position: absolute;
-    content: "";
-    top: 40%;
-    right: 52%;
-    width: 7%;
-    height: 4px;
-    background-color: #ffffff;
+.starIcon::before {
+  position: absolute;
+  content: "";
+  top: 40%;
+  right: 52%;
+  width: 7%;
+  height: 4px;
+  background-color: #ffffff;
 }
 
+@media (max-width: 576px) {
+  .starIcon::after {
+    left: 55%;
+    width: 20%;
+  }
+  .starIcon::before {
+    right: 55%;
+    width: 20%;
+  }
+}

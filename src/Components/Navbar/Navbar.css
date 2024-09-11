@@ -1,0 +1,10 @@
+.nav-link.active {
+background-color: #1abc9c;
+border-radius: 10px;
+}
+
+.nav-link.active:active,
+.nav-link:focus{
+    background-color: #1abc9c;
+    border-radius: 10px;
+    }

@@ -1,4 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
 .navbar , .upperFooter{
   background-color: #2c3e50;
+}
+
+.navbar-toggler-icon{
+  background-image: url(./Assets/images/navbarToggler.svg) !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active{
+  color: #fff;
 }
 

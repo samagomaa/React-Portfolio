@@ -1,36 +1,20 @@
-
-.starIconPort{
-    position: relative;
-}
-.starIconPort::after{
-    position: absolute;
-    content: "";
-    top: 40%;
-    left: 52%;
-    width: 7%;
-    height: 4px;
-    background-color: #2c3e50;
-}
-.starIconPort::before{
-    position: absolute;
-    content: "";
-    top: 40%;
-    right: 52%;
-    width: 7%;
-    height: 4px;
-    background-color: #2c3e50;
+.starIconPort::after,
+.starIconPort::before {
+  background-color: #2c3e50;
 }
 
-.imgLayer{
-    opacity: 0;
-    background-color: #1abc9cd6;
+.imgLayer {
+  opacity: 0;
+  background-color: #1abc9cd6;
 }
 
-.Pimg:hover .imgLayer{
-    transition: all 0.5s;
-    opacity: 1;
+.Pimg:hover .imgLayer {
+  transition: all 0.5s;
+  opacity: 1;
 }
-.fa-plus{
-    font-size: 70px;
+.fa-plus {
+  font-size: 70px;
 }
-
+.portfolioPage {
+  min-height: 100vh;
+}
